@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML All Tags Example">
+  <meta name="keywords" content="HTML, Full Example, Tags">
+  <meta name="author" content="Raghul">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All HTML Tags Demo</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+    body { font-family: Calibri; margin: 20px; background-color: #f2ee0e; }
+    table, th, td { border: 1px solid #000; border-collapse: collapse; padding: 5px; }
+    aside { background: #eee; padding: 10px; }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to My HTML Demo By <strong><u>Karan Soni</u></strong></h1>
+    <p><strong><i><u>This page demonstrates all major HTML tags in one go.</u></i></strong></p>
+  </header>
+
+  <nav>
+    <a href="https://github.com/karansbz007/Web-Technology-Practical.git">Github</a> |
+    <a href="https://www.instagram.com/karansbz007/">Instagram</a> |
+    <a href="#table">Table</a> |
+    <a href="#form">Form</a> |
+    <a href="#semantic">Semantic</a> |
+    <a href="https://cdn.images.autoexposure.co.uk/AETA68150/AETV20076882_1e.jpg">Image</a>
+  </nav>
+
+  <main>
+    <section id="text">
+      <h2>1. Text & Formatting</h2>
+      <p>This is a <b>bold</b>, <i>italic</i>, and <u>underlined</u> text.</p>
+      <p><em>Emphasis</em> and <strong>Strong</strong> text.</p>
+      <p><mark>Highlighted</mark>, <small>small</small>, H<sub>2</sub>O, x<sup>2</sup></p>
+      <p><del>Deleted</del> and <ins>Inserted</ins> content.</p>
+      <hr>
+      <p>Line break here:<br>This is after a break.</p>
+      <pre>
+function hello() {
+  alert("Hello world!");
+}
+      </pre>
+    </section>
+
+    <section id="list">
+      <h2>2. Lists</h2>
+      <ul>
+        <li>IPU</li>
+        <li>LV</li>
+      </ul>
+      <ol>
+        <li>BUS</li>
+        <li>RTV</li>
+      </ol>
+      <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+      </dl>
+    </section>
+
+    <section id="link">
+      <h2>3. Links</h2>
+      <p><a href="https://github.com/karansbz007" target="_blank" title="Example Site">Visit Github.com</a></p>
+      <p><a href="https://instagram.com/karansbz007" target="_blank" title="Example Site">Visit Instagram.com</a></p>
+    </section>
+
+    <section id="media">
+      <h2>4. Images & Media</h2>
+      <figure>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdesigncode.io%2Ffigma-handbook-ui-placeholder%2F&psig=AOvVaw0T9KMjnJYlKnxXvAf-x2RR&ust=1758868412591000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLjMldKl848DFQAAAAAdAAAAABAE" alt="Placeholder">
+        <figcaption>Sample Image</figcaption>
+      </figure>
+
+      <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+      </audio><br>
+
+      <video width="320" height="240" controls>
+        <source src="sample.mp4" type="video/mp4">
+        Your browser does not support video.
+      </video><br>
+
+      <iframe width="300" height="200" src="https://www.youtube.com/watch?v=k2DSi1zGEc8&t=6s"></iframe>
+    </section>
+
+    <section id="table">
+      <h2>5. Table</h2>
+      <table>
+        <caption>Student Marks</caption>
+        <thead>
+          <tr><th>Part</th><th>Opening Stock</th><th>Closing Stock</th><th>Cost Price</th><th>Sell Price</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Oil Filter Hero</td><td>90</td><td>65</td><td>80</td><td>85</td></tr>
+          <tr><td>Plug(Small Thread)</td><td colspan="2">Not Available</td><td>110</td><td>120</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td>End of Results</td><td>90</td><td>95</td><td colspan="2">Confedential</td></tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section id="form">
+      <h2>6. Forms & Inputs</h2>
+      <form action="submit.php" method="post">
+        <fieldset>
+          <legend>Registration Form</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+
+          <label>Gender:</label>
+          <input type="radio" name="gender" value="male">Male
+          <input type="radio" name="gender" value="female">Female<br><br>
+
+          <label>Skills:</label>
+          <input type="checkbox" name="skills" value="HTML">HTML
+          <input type="checkbox" name="skills" value="CSS">CSS<br><br>
+
+          <label for="color">Pick a Color:</label>
+          <input type="color" id="color" name="color"><br><br>
+
+          <label for="dob">DOB:</label>
+          <input type="date" id="dob" name="dob"><br><br>
+
+          <label for="range">Experience:</label>
+          <input type="range" id="range" name="exp" min="0" max="10"><br><br>
+
+          <label for="resume">Upload Resume:</label>
+          <input type="file" id="resume" name="resume"><br><br>
+
+          <label for="comments">Comments:</label><br>
+          <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </section>
+
+    <section id="semantic">
+      <h2>7. Semantic Elements</h2>
+      <article>
+        <h3>Article Title</h3>
+        <p>This is an article about HTML5. Published on 
+        <time datetime="2025-07-25">July 25, 2025</time>.</p>
+      </article>
+
+      <aside>
+        <h4>Quick Tip</h4>
+        <p>Use semantic tags for better accessibility and SEO.</p>
+      </aside>
+
+      <details>
+        <summary>Click to reveal secret</summary>
+        <p>This is hidden content using details/summary.</p>
+      </details>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Karan Soni | Made with lots of ❤️ using HTML</p>
+  </footer>
+
+  <noscript>Your browser does not support JavaScript!</noscript>
+</body>
+</html>
+	
