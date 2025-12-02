@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Date, Math & String Functions Demo</title>
+ <style>
+        body{
+            background-color: rgba(90, 130, 110, 85);
+        }
+    </style>
+</head>
+<body>
+<h2>Output in Console</h2>
+<p>Right-click > Inspect > Console to see results.</p>
+<script>
+ console.log("===== DATE OBJECT FUNCTIONS =====");
+ let d = new Date();
+ console.log("Current Date:", d);
+ console.log("Year:", d.getFullYear());
+ console.log("Month (0-11):", d.getMonth());
+ console.log("Date:", d.getDate());
+ console.log("Day (0=Sun):", d.getDay());
+ console.log("Hours:", d.getHours());
+ console.log("Minutes:", d.getMinutes());
+ console.log("Seconds:", d.getSeconds());
+ console.log("Time (ms):", d.getTime());
+ // Set functions
+36
+ d.setFullYear(2025);
+ d.setMonth(10);
+ console.log("Updated Date:", d);
+ console.log("===== MATH OBJECT FUNCTIONS =====");
+ console.log("PI:", Math.PI);
+ console.log("Square Root of 25:", Math.sqrt(25));
+ console.log("Power (2^5):", Math.pow(2, 5));
+ console.log("Absolute:", Math.abs(-12.5));
+ console.log("Ceil:", Math.ceil(4.2));
+ console.log("Floor:", Math.floor(4.9));
+ console.log("Round:", Math.round(4.6));
+ console.log("Max:", Math.max(4, 7, 2, 8));
+ console.log("Min:", Math.min(4, 7, 2, 8));
+ console.log("Random (0 to 1):", Math.random());
+ console.log("===== STRING OBJECT FUNCTIONS =====");
+ let str = "Hello JavaScript";
+ console.log("Original:", str);
+ console.log("Length:", str.length);
+ console.log("Uppercase:", str.toUpperCase());
+ console.log("Lowercase:", str.toLowerCase());
+ console.log("Substring (6, 10):", str.substring(6, 10));
+ console.log("Slice (6,16):", str.slice(6, 16));
+ console.log("Index of 'a':", str.indexOf('a'));
+ console.log("Replace:", str.replace("JavaScript", "World"));
+ console.log("Char at 1:", str.charAt(1));
+37
+ console.log("Split:", str.split(" "));
+ console.log("Trim:", " hello ".trim());
+</script>
+</body>
+</html>

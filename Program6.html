@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Text Styling Attributes — ID & Class Selectors</title>
+  <link rel="stylesheet" href="style-q6.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Text Styling Attributes — ID &amp; CLASS Selectors</h1>
+    <p class="desc">This page demonstrates common text styling properties. IDs (prefixed with #) are used for single elements; classes (prefixed with .) are reusable. All examples use simple, clear names.</p>
+
+    <section>
+      <h2>Font family, size, weight, style</h2>
+      <div class="example">
+        <p id="id-font">#id-font — Georgia, 20px, bold italic (ID example)</p>
+        <p class="cls-font-small">.cls-font-small — small text (class)</p>
+        <p class="cls-font-large cls-light">.cls-font-large .cls-light — large but light weight (class)</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Decoration &amp; Transform</h2>
+      <div class="example">
+        <p id="id-decoration">#id-decoration — underlined (custom style)</p>
+        <p class="cls-upper">.cls-upper — UPPERCASE</p>
+        <p class="cls-cap">.cls-cap — Capitalize Each Word</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Spacing &amp; Line-height</h2>
+      <div class="example">
+        <p id="id-spacing">#id-spacing — letter-spacing, word-spacing, and higher line-height help readability when text has more space.</p>
+        <p class="cls-tight">.cls-tight — slightly tighter letters</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Alignment &amp; Indent</h2>
+      <div class="example">
+        <p id="id-align">#id-align — justified text with first-line indent. This simulates a paragraph in a book or article. Long lines will wrap accordingly to show the indent.</p>
+        <p class="cls-center">.cls-center — centered text</p>
+        <p class="cls-right">.cls-right — right aligned text</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Color, Background &amp; Shadow</h2>
+      <div class="example">
+        <p id="id-color">#id-color — Blue color with lightblue background</p>
+        <p id="id-shadow">#id-shadow — example with text shadow</p>
+        <p class="cls-muted">.cls-muted — muted (grey) text</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Inline / White-space / Vertical align</h2>
+      <div class="example">
+        <p class="cls-vert"><img src="web.jpeg" height = "20px" alt="icon"> <span style="vertical-align:middle">Image aligned with text using .cls-vert</span></p>
+        <p id="id-white">#id-white — preserves line breaks and wraps text.\nType a long text and it will keep spacing and new lines.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Direction, Hyphens &amp; Word Breaks</h2>
+      <div class="example">
+        <p id="id-rtl">#id-rtl — direction: rtl (this paragraph shows right-to-left direction)</p>
+        <p class="cls-hyphen">.cls-hyphen — longwordlongwordlongwordlongwordlongword may break with hyphens if supported by the browser and language settings.</p>
+        <p class="cls-break cls-wrap">.cls-break .cls-wrap — forces breaks for long words and wraps lines to avoid overflow.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Overflow &amp; Small-caps / Vertical</h2>
+      <div class="example">
+        <p class="cls-ellipsis">.cls-ellipsis — This text will be cut off with an ellipsis if too long for the box.</p>
+        <p id="id-smallcaps">#id-smallcaps — small-caps example</p>
+        <div class="cls-vertical">.cls-vertical — vertical writing-mode demo</div>
+      </div>
+    </section>
+
+    <p class="note">Tip: Combine classes to reuse styles (for example: <code>class="cls-font-large cls-bold cls-center"</code>). IDs are for unique elements only.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLIOZ2kk_6rNYpOMnc16YycTDjUBYuTD0BQ&s");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      
+      background-color: rgba(255,255,255,0.55);
+      background-blend-mode: lighten;
+      padding: 20px;
+    }
+
+  .card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    max-width: 850px;
+    margin: auto;
+  }
+
+  h1 { text-align: center; }
+  h2 { margin-top: 18px; font-size: 20px; }
+
+  .example {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+
+  #id-font { font-size: 20px; font-weight: bold; font-style: italic; }
+  #id-decoration { text-decoration: underline; }
+  #id-spacing { letter-spacing: 2px; line-height: 1.6; }
+  #id-align { text-align: justify; text-indent: 25px; }
+  #id-color { color: blue; background: lightskyblue; padding: 3px; display: inline-block; }
+  #id-shadow { text-shadow: 1px 1px 2px #aaa; }
+  #id-white { white-space: pre-wrap; background: #fffbe8; padding: 5px; }
+  #id-rtl { direction: rtl; }
+  #id-smallcaps { font-variant: small-caps; }
+
+  .small { font-size: 13px; }
+  .large { font-size: 22px; }
+  .upper { text-transform: uppercase; }
+  .cap { text-transform: capitalize; }
+  .center { text-align: center; }
+  .right { text-align: right; }
+  .muted { color: #666; }
+  .ellips { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 300px; display: inline-block; }

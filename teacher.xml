@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE teachers SYSTEM "teacher.dtd">
+<teachers>
+<teacher id="T001">
+<name>Dr. Asif</name>
+<department>Mathematics</department>
+<qualification>Ph.D. in Applied Mathematics</qualification>
+<experience>12 years</experience>
+<email>dr_asif@example.com</email>
+<phone>+91-9215888401</phone>
+</teacher>
+ <teacher id="T002">
+<name>Mr. Surya Mani</name>
+<department>Computer Science</department>
+<qualification>M.Tech (CSE)</qualification>
+<experience>7 years</experience>
+<email>surya9007@example.com</email>
+<phone>+91-9695272493</phone>
+</teacher>
+ <teacher id="T003">
+<name>Mr. Vijay Pal Singh</name>
+<department>Transportation</department>
+<qualification>MBA</qualification>
+<experience>9 years</experience>
+<email>vijay.pal@example.com</email>
+<phone>+91-9658453968</phone>
+</teacher>
+</teachers>

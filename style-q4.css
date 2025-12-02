@@ -1,0 +1,204 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: rgb(12, 71, 152);
+        height: 1210px;
+    }
+
+    .box1{
+        background-color: greenyellow;
+        margin: 15px;
+        height: 1200px;
+        text-align: center;
+        
+    }
+
+    .box2{
+        text-align: left;
+        margin:10px 0px 0px 10px;
+        
+        }
+    .DOB{
+        text-align: left;
+        margin:10px 0px 0px 10px;
+        
+        }
+
+        
+        
+        .Name input{
+            
+            margin-right: 40px;
+            
+        }
+        .DOB input{
+            padding-top: 15px;
+            margin-right: 40px;
+            
+        }
+
+        .Gander{
+            text-align: left;
+        margin:10px 0px 0px 10px;
+        padding-top: 15px;
+        }
+
+        .Gander input{
+            margin: 15px;
+        }
+
+        .Country{
+            display: inline;
+            margin-left: 150px;
+        }
+        
+        .Email , .Phone
+        {
+            display: inline-block;
+            
+        }
+
+        .Email{
+            margin-left: 230px;
+        }
+        
+        #address{
+            resize: none;
+            padding-top: 15px;
+        }
+        #street_address ,#street_address2{
+             resize: none;
+            padding-top: 15px;
+        }
+
+        .city_state span,textarea {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px; 
+    
+    resize: none;
+}
+.city_state textarea{
+    margin-right: 150px;
+    margin-bottom: 7px;
+    
+}
+
+.Econtact {
+    display: inline-block;
+  text-align: left;
+  margin-top: 10px;
+  padding-top: 5PX;
+  border: 2px solid black;
+  padding-left:13px ;
+  
+}
+
+/* .Econtact span {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+}
+
+.Econtact p {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  
+}
+
+.Econtact textarea {
+  resize: none;
+  vertical-align: middle;
+  margin-right: 20px;
+} */
+ .Relationship{
+    margin-top: 15px;
+ }
+
+ .Email2 , .Phone2          
+        {
+            display: inline-block;
+            
+        }
+
+        .Email{
+            margin-left: 230px;
+        }
+
+        .info {
+    display: inline-block;
+  text-align: left;
+  margin-top: 10px;
+  padding: 5px 0px 80px 13px;
+  border: 2px solid black;
+ 
+  
+}
+
+input[type="submit"] {
+  background-color: #007bff;   
+  color: white;               
+  padding: 10px 20px;        
+  border: none;              
+  border-radius: 6px;         
+  font-size: 16px;            
+  font-weight: 500;          
+  cursor: pointer;            
+  transition: 0.3s ease;       
+}
+
+
+input[type="submit"]:hover {
+  background-color: #0056b3;   
+  transform: scale(1.05);      
+}
+
+
+form {
+  text-align: center;          
+  margin-top: 15px;
+}
+
+body {
+  background: linear-gradient(
+      rgba(12, 71, 152, 0.7), 
+      rgba(12, 71, 152, 0.7)
+    ),
+    url("https://lldims.edu.in/wp-content/uploads/2023/11/cropped-LLDIMS-Logo-Circle.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 1210px;
+  font-family: Arial, sans-serif;
+}
+
+.box1 {
+  position: relative;
+  background-color: white;
+  margin: 15px;
+  height: 1200px;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.box1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://lldims.edu.in/wp-content/uploads/2023/11/cropped-LLDIMS-Logo-Circle.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.15; 
+  z-index: 0;
+}
+
+
+.box1 * {
+  position: relative;
+  z-index: 1;
+}

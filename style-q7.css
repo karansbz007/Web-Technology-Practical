@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQa2rFTTUl6EixvRqJhgtl9CQ6KFmpRLwWKw&s") center/cover no-repeat;
+    backdrop-filter: brightness(0.6);
+    padding: 20px;
+}
+.jumbotron {
+    background: rgba(56, 58, 60, 0.8);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    width: 90%;
+    margin: 40px auto;
+}
+.jumbotron h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.jumbotron p {
+    font-size: 18px;
+}

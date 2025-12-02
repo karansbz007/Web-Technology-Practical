@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+    margin: 20px;
+}
+
+teachers {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #4ae296;
+}
+
+teacher {
+    display: block;
+    background: burlywood;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    padding: 14px 18px;
+    margin: 12px 0;
+    border-left: 6px solid blueviolet;
+}
+
+teacher::before {
+    content: "Teacher ID: " attr(id);
+    display: block;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+name {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+department, qualification, experience {
+    display: inline-block;
+    margin-right: 18px;
+    font-size: 14px;
+    color: #333;
+}
+
+email, phone {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+}
+
+department::before { content: "Department: "; font-weight:600; }
+qualification::before { content: "Qualification: "; font-weight:600; }
+experience::before { content: "Experience: "; font-weight:600; }
+email::before { content: "Email: "; font-weight:600; }
+phone::before { content: "Phone: "; font-weight:600; }

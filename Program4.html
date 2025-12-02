@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Student registration form for admission in college.</title>
+   <link rel="stylesheet" href="style-q4.css">
+</head>
+<body>
+   <div class="main_box">
+      <div class="box1">
+         <h1>College Admissions Form</h1>
+         <br>
+         <p>Enter your admission information below</p>
+         <br><br>
+         <hr>
+         <div class="info">
+         <div class="box2">
+            <p>Name:</p>
+            <span class="Name">
+               <label for="First_name">First Name</label>
+               <input type="text" id="First_name" placeholder="Enter First Name" required>
+            </span>
+            <span>
+               <label for="Middle_name">Middle Name</label>
+               <input type="text" id="Middle_name" placeholder="Enter Middle Name" required>
+            </span>
+            <span>
+               <label for="Last_name">Last Name</label>
+               <input type="text" id="Last_name" placeholder="Enter Last Name" required>
+            </span>
+         </div>
+         <br><br>
+         <div class="DOB">
+            <p> Date OF Birth:</p>
+            <span>
+               <label for="month">Month</label>
+               <input type="month" id="month" placeholder="Month" required>
+            </span>
+            <span>
+               <label for="Day">Day</label>
+               <input type="number" id="Day" placeholder="Day" min="1" max="31" required>
+            </span>
+            <span>
+               <label for="Year">Year</label>
+               <input type="number" id="Year" placeholder="Year" min="1900" max="2100" required>
+            </span>
+         </div>
+         <div class="Gander">
+            <span>
+               <p>Gander:</p>
+               <input type="radio" name="Gander" value="Male" id="Male" required>
+               <label for="Male">Male</label>
+               <input type="radio" name="Gander" id="Female" value="Female" required>
+               <label for="Female">Female</label>
+               <input type="radio" name="Gander" id="Others" value="Others" required>
+               <label for="Others">Others</label>
+            </span>
+            <div class="Country">
+               <span>
+                  <label for="country">Country:</label>
+                  <input list="countries" id="country" name="country" placeholder="Type or select country" required>
+                  <datalist id="countries">
+                     <option value="India">
+                     <option value="United States">
+                     <option value="United Kingdom">
+                     <option value="Canada">
+                     <option value="Australia">
+                  </datalist>
+               </span>
+            </div>
+            <div>
+               <span class="Phone">
+                  <p>Contact No.:</p>
+                  <input type="tel" id="Phone_number" placeholder="(+91) 00000 00000" required>
+               </span>
+               <span class="Email">
+                  <p>Email Address:</p>
+                  <input type="email" placeholder=" mynameis@example.com" required>
+               </span>
+            </div>
+            <div>
+               <div class="main_add">
+                  <p>Mailing Address:</p>
+                  <span>
+                     <textarea name="address" id="address" rows="3" cols="100" required></textarea>
+                  </span>
+                  <span>
+                     <p>Street Address:</p>
+                     <textarea name="street_address" id="street_address" rows="2" cols="100" required></textarea>
+                  </span>
+
+                  <span>
+                     <p>Street Address Line 2:</p>
+                     <textarea name="street_address2" id="street_address" rows="2" cols="100" required></textarea>
+                  </span>
+               </div>
+               <div class="city_state">
+                  <span>
+                     <p>City:</p>
+                     <textarea name="city" id="city" rows="2" cols="20" required></textarea>
+                  </span>
+                  <span>
+                     <p>State / Province:</p>
+                     <textarea name="state" id="state" required></textarea>
+                  </span>
+               </div>
+               <div>
+                  <p>Postal / Zip Code:</p>
+                  <textarea name="ZIP" id="ZIP" rows="2" cols="10" required></textarea>
+               </div>
+               </div>
+               <div class="Econtact">
+               <p>Emergency Contact Details (Optional):</p>
+               <span class="Ename">
+                  <textarea name="first_name" placeholder="First_Name" id="first_name"></textarea>
+                  <textarea name="last_name" placeholder="Last_Name" id="last_name"></textarea>
+                  </span>
+                  <span class="Relationship">
+                  <p>Relationship with Contact</p>
+                  <textarea name="Relationship" id="Relationship" placeholder="Relationship"></textarea>
+               </span>
+               <div>
+               <span class="Phone2">
+                  <p>Phone:</p>
+                  <input type="tel" id="Phone_number2" placeholder="(+91) 00000 00000">
+               </span>
+               <span class="Email2">
+                  <p>Email</p>
+                  <input type="email2" placeholder=" mynameis@example.com">
+               </span>
+            </div>
+               </div>
+               <form action="submit_form.php" method="post">
+  <input type="submit" value="Submit">
+</form>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

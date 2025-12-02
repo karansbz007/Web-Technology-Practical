@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Mapping Project</title>
+    <link rel="stylesheet" href="style-q3.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Image Mapping</h1>
+    <p class="subtitle">Using shape, coords, and href attributes in map definition</p>
+
+    <div class="info">
+        <p>Click Front Display → Rectangle</p>
+        <p>Click Right Display → Polygon</p>
+        <p>Click Headphone → Circle</p>
+    </div>
+
+    <hr>
+
+    <img src="Desktop1.jpg"
+         usemap="#map1"
+         class="main-img">
+
+    <map name="map1">
+        
+        <area shape="rect"
+              coords="232,123,448,243"
+              href="rect.html"
+              alt="Front Display">
+
+        <area shape="circle"
+              coords="98,260,50"
+              href="circle.html"
+              alt="Headphone">
+
+       
+        <area shape="poly"
+              coords="492,207,481,274,435,339,525,357,580,210"
+              href="poly.html"
+              alt="Right Display">
+    </map>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://www.carscoops.com/wp-content/uploads/2020/07/2021-Ford-Bronco-Sport.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 280px;
+    padding: 20px;
+    background: rgb(0, 15, 128);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(230, 3, 3, 0.2);
+}
+
+.box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.box button {
+    width: 95%;
+    padding: 10px;
+    background: #4ae251;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginBox {
+    display: none;
+}

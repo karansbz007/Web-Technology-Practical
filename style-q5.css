@@ -1,0 +1,66 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GQuewxLfMh2olMxwVIVsJmu1qFf5Q4dwZw&s");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      
+      background-color: rgba(255,255,255,0.65);
+      background-blend-mode: lighten;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #333;
+      margin-top: 15px;
+    }
+
+    .example-box {
+      background: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 15px;
+    }
+
+   
+
+    .bullet-disc li { list-style-type: disc; }
+    .bullet-circle li { list-style-type: circle; }
+    .bullet-square li { list-style-type: square; }
+    .bullet-none li { list-style-type: none; }
+
+    .num-decimal li { list-style-type: decimal; }
+    .num-alpha li { list-style-type: lower-alpha; }
+    .num-roman li { list-style-type: upper-roman; }
+
+    .inside li { list-style-position: inside; }
+    .outside li { list-style-position: outside; }
+
+   .image-bullet {
+      list-style-image: url("https://i.pinimg.com/564x/b3/10/73/b31073cfb1a50b2220e0cf9b849138e4.jpg");
+    }
+    .short-style { list-style: square inside; }
+
+    .custom-list { list-style: none; counter-reset: c; }
+    .custom-list li { counter-increment: c; margin: 5px 0; }
+    .custom-list li::before { content: counter(c) ". "; font-weight: bold; }
+
+    .less-space li { margin: 3px 0; }
+    .more-space li { margin: 10px 0; }

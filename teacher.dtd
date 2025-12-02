@@ -1,0 +1,11 @@
+<!ELEMENT teachers (teacher+)>
+<!ELEMENT teacher (name, department, qualification, experience, email, phone)>
+<!ATTLIST teacher
+id ID #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT qualification (#PCDATA)>
+<!ELEMENT experience (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>

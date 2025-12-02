@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(155, 160, 180);
+}
+
+h2, h3 {
+    color: #b42c9e;
+}
+
+img {
+    border: 2px solid #ffff00;
+    transition: 0.3s;
+}
+
+img:hover{
+    transform: scale(1.08);
+}
